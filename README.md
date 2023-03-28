@@ -42,7 +42,7 @@ df.info()
 df.describe()
 df.isnull().sum()
 df.dtypes
-df['Postal Code'].value_counts()
+df['Sales'].value_counts()
 sns.boxplot(x="Sales", data=df)
 sns.countplot(x="Postal Code", data=df)
 sns.distplot(df["Sales"])
